@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.edu.iff.pooa20172.atividade3.LivroDestaque">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/tv_nome_livro_destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            />
+
+        <EditText
+            android:id="@+id/et_nome_livro_destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:inputType="none|text"
+            android:text="Name"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/tv_autor_livro_destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor"
+            />
+
+        <EditText
+            android:id="@+id/et_autor_livro_destaque"
+            android:layout_width="220dp"
+            android:layout_height="54dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/tv_descricao_livro_destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descricao"
+            />
+
+        <EditText
+            android:id="@+id/et_descricao_livro_destaque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:inputType="textPersonName"
+            android:text="Name"
+            />
+    </LinearLayout>
+</LinearLayout>
